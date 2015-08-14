@@ -1,0 +1,75 @@
+{
+  "_args": [
+    [
+      "couch2redis",
+      "/Users/Faiq"
+    ]
+  ],
+  "_from": "couch2redis@*",
+  "_id": "couch2redis@1.0.4",
+  "_inCache": true,
+  "_location": "/couch2redis",
+  "_npmUser": {
+    "email": "faiqrazarizvi@gmail.com",
+    "name": "faiqyou"
+  },
+  "_npmVersion": "2.0.0-beta.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "couch2redis",
+    "raw": "couch2redis",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_shasum": "c69a9525e209ed6a3e14b0ab8813a6145e40766b",
+  "_shrinkwrap": null,
+  "_spec": "couch2redis",
+  "_where": "/Users/Faiq",
+  "author": {
+    "name": "Faiq"
+  },
+  "dependencies": {
+    "fakeredis": "^0.2.1",
+    "follow": "^0.11.2",
+    "redis": "^0.11.0",
+    "seq-file": "^1.0.2"
+  },
+  "description": "A listener that listens to couch db events and updates a redis key associated with a sortedset",
+  "devDependencies": {
+    "lab": "^3.2.1",
+    "sinon": "^1.10.3"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "c69a9525e209ed6a3e14b0ab8813a6145e40766b",
+    "tarball": "http://registry.npmjs.org/couch2redis/-/couch2redis-1.0.4.tgz"
+  },
+  "gitHead": "8d754106431335b6e409263444ab2b71a2b645e1",
+  "installable": true,
+  "keywords": [
+    "couchdb",
+    "follower",
+    "redis",
+    "updater",
+    "walker"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "faiqyou",
+      "email": "faiqrazarizvi@gmail.com"
+    }
+  ],
+  "name": "couch2redis",
+  "optionalDependencies": {},
+  "scripts": {
+    "test": "lab -vc tests/*.js"
+  },
+  "version": "1.0.4"
+}
